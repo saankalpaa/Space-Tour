@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.bgImg{
+    background-color: #585858;
+    background-image: url('../images/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+}
+
+.container{
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    padding: 3px;
+
+}
+header{
+    background-color: transparent;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+}
+
+header .fixed{
+    background-color: transparent;
+    position: fixed;
+}
+header .row{
+    
+    align-items: center;
+}
+header .name{
+    margin-right: 800px;   
+    position: relative; 
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+header .name a{
+    color: #ed1c24;
+}
+
+header .navbar ul{
+    list-style: none;
+    padding: 0;
+    margin-right: 50px;
+}
+header .navbar ul li{
+    display:  inline-block;
+    margin-left: 35px;
+}
+
+header .navbar ul li .home{
+    color: #ed1c24;
+}
+
+header .navbar ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 72px;
+    color: #ffffff;
+    display: block;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300px;
+    font-size: 20px;
+    position: relative;
+
+}
+header .navbar ul li a::before{
+    content: '';
+    height: 3px;
+    background-color:#ed1c24;
+    width: 0%;
+    position: absolute;
+    right: 0px;
+    bottom: -1px;
+    bottom: -1px;
+}
+
+header .navbar ul li a:hover::before{
+    width: 100%;
+    left: 0;
+}
+
+
+

@@ -201,6 +201,7 @@ header .navbar ul li a:hover::before{
 
 .destination{
     padding-top: 120vh;
+    margin-bottom: 160px;
 }
 .destination .destination-container .section-title{
     font-size: 60px;
@@ -230,10 +231,6 @@ figcaption{
     width: 200px;
     height: 180px;
 }
-/* 
-#marsbtn, #moonbtn, #jupiterbtn{
-    border: none;
-} */
 
 /*Moon Overview css starts*/
 
@@ -392,3 +389,112 @@ figcaption{
 /*Jupiter Overview css ends*/
 
 /* Destination css ends*/
+
+/* activity css starts */
+
+.activity{
+    height: 100vh;
+    background-image: url(../images/bg.png);
+    clip-path: polygon(50% 100%, 100% 55%, 100% 0, 0 0, 0 55%);
+}
+
+.activity .section-title{
+    font-size: 60px;
+    color: #efefef;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: overline;
+    text-decoration-color: #ed1c24;
+    margin-left: 530px;
+    padding-top: 20px;  
+}
+
+#activities-destination{
+    text-decoration: overline;
+    text-decoration-color: #ed1c24;
+}
+
+.activities-overview-1, .activities-overview-2{
+    margin: 50px 210px;
+}
+
+.activities-overview-1, .activities-overview-2{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    color: #efefef;
+    /* border: 2px solid #8b8b8b; */
+}
+
+.activities-overview-1 .landing-tour, .galactic-arcades,.space-bar{
+    margin-left: 115px;
+    border: 2px solid #202133;
+    border-radius: 10%;
+    background-color: #202133;
+    padding: 20px 20px;
+}
+
+.activities-overview-2 .rover-expeditions{
+    margin-left: 50px;
+    border: 2px solid #202133;
+    border-radius: 10%;
+    background-color: #202133;
+    padding: 20px 20px;
+    padding-right: 85px;
+}
+
+.activities-overview-2 .space-bar{
+    padding-right: 12px;
+}
+
+.activities-overview-1 .landing-tour{
+    padding-right: 180px;
+}
+
+.activities-overview-1 .galactic-arcades{
+    margin-left: 50px;
+    padding-right: 50px;
+}
+
+.activities-overview-1 h3,p ,.activities-overview-2 h3,p{
+    color: #507a95;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.landing-tour, .galactic-arcades , .rover-expeditions, .space-bar{
+    display: flex;
+    flex-direction: row;
+}
+
+.activities-overview-1 h3, .activities-overview-2 h3{
+    color: #efefef;
+    font-weight: 700;
+}
+
+svg{
+    margin-right: 10px;
+}
+
+.btndiv{
+    margin-left: 565px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btndiv .bookbtn, .destinationbtn{
+    background-color: #202133;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: #efefef;
+    border: 2px solid #202133;
+}
+.btndiv .bookbtn {
+    padding-right: 60px;
+    padding-left: 60px;
+    background-color: #ed1c24;
+}
+
+.btndiv .destinationbtn{
+    margin-left: 15px;
+}
+
+
+/* activity css ends */

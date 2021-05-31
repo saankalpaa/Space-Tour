@@ -7,23 +7,32 @@
     <link rel="stylesheet" href="style/style.css">
     <title>SPACETOUR</title>
 </head>
-<body>
-    
+<body onload="myFunction();delayFunction();">
+
+    <!--Header section starts-->
 
     <header>
         <div class="bgImg">
             <div class="container">
                 <div class="row">
-                    <div class="logo"><img src="images/mars.png" alt="mars"></div>
+                    <div class="logo"><img src="images/mars.png" alt="mars" class="rotate"></div>
                     <div class="name">SPACE<a class="tour"> TOUR</a></div>
                     <div class="navbar">
                         <ul>
                             <li><a class="home" href="#home">HOME</a></li>
-                            <li><a href="#destinations">DESTINATIONS</a></li>
                             <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#destinations">DESTINATIONS</a></li>
                             <li><a href="#reviews">REVIEWS</a></li>
                         </ul>
                     </div>
+                </div>
+                <!-- <audio id="audio" controls="" style="width: 100%;"><source src="../spaceTour/images/fast-and-powerful-science-fiction-spacecraft-pass-by-flyby-whizz-past-1.mp3" type="audio/mpeg">Please update your browser does not support the audio element.</audio> -->
+                <div  class="moon-bg"><img id="moon" src="../spaceTour/images/moon.png" alt="moon"></div>
+                <div class="astronaut-bg"><img id="astronaut" src="../spaceTour/images/astronaut.png" alt="astronaut"></div>
+                <div id="delayedText" class="quote" style="visibility: hidden;">
+                    <h1>TO SPACE</h1>
+                    <h1 class="back"><a class="and">&</a> BACK</h1>
+                    <a href="#about"> <button>EXPLORE <img src="../spaceTour/images/downArrow.png" alt=""> </button></a>
                 </div>
             </div>
         </div>
@@ -31,7 +40,54 @@
     
     <!--Header section ends-->
 
-    <!-- <div class="backGImg"></div> -->
+    <!--Destination section starts-->
+
+    <div class="destination">
+        <div class="destination-container">
+            <h1 class="section-title">DESTINATIONS</h1>
+            <div class="image-container">
+                <img class="marsG" src="../spaceTour/images/marsGIF.gif" alt="mars">
+                <img class="moonG" src="../spaceTour/images/moonGIF.gif" alt="moon">
+                <img class="jupiterG" src="../spaceTour/images/jupiterGIF.gif" alt="jupiter">
+            </div>
+            <div class="moonOverview">
+                <h1 class="inside">MOON</h1>
+                <h1 class="outside">THE MOON!</h1>
+                <h2>MORE THAN JUST A DESTINATION</h2>
+                <div class="moonDescription">
+                    <p class="p1"> You will have great views of earth, perfect for taking pictures.
+                        Not only will you have a luxury experience getting to the moon
+                        , you will also be over the moon for the accomodations we have 
+                        for you on earth's </p> 
+                    <p class="p2"> natural satelite. Be sure to look into our 
+                        events held on the moon, you wont want to miss the oppurtunity 
+                        to see the next eclipse
+                        from the moons surface.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <!--Destination section ends-->
+
+
+    <script>
+            function myFunction() {
+                document.getElementById('moon').className = "playingMoon";
+                document.getElementById('astronaut').className = "playingAstro";
+            };
+
+            function delayFunction(){
+                var theDelay = 1.5;
+                setTimeout(() => {
+                   showText()
+                }, theDelay*1000);
+            }
+            function showText(){
+                document.getElementById("delayedText").style.visibility = "visible";
+            }
+    </script>
     
 </body>
 </html>

@@ -201,7 +201,6 @@ button img{
 
 .destination{
     padding-top: 120vh;
-    margin-left: 150px;
 }
 .destination .destination-container .section-title{
     font-size: 60px;
@@ -209,6 +208,22 @@ button img{
     font-family: 'Bebas Neue', cursive;
     text-decoration: overline;
     text-decoration-color: #ed1c24;
+    margin-left: 150px;
+}
+
+.image-container{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-container figure{
+    margin-left: 10px;
+}
+
+figcaption{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
 }
 
 .marsG,.jupiterG, .moonG{
@@ -216,27 +231,34 @@ button img{
     height: 180px;
 }
 
+/*Moon Overview css starts*/
+
 .moonOverview{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
-.moonOverview .outside{
+.outside{
     color: #000000;
-    font-size: 80px;
+    font-size: 120px;
     font-family: 'Bebas Neue', cursive;
+    margin-top: 140px;
+    margin-left: 160px;
 } 
 
 .moonOverview .inside{
-    color: #ededef;
-    font-size: 320px;
-    font-family: 'Bebas Neue', cursive;
-    z-index: -1;
+   position: absolute;
+   width: 750px;
+   height: 300px;
+   margin-left: 40px;
+   z-index: -1;
 }
 
 .moonOverview h2{
     color: #000000;
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Bebas Neue', cursive;
+    margin-left: 160px;
+
 }
 
 .moonOverview p{
@@ -248,6 +270,7 @@ button img{
 .moonDescription{
     display: flex;
     flex-direction: row;
+    margin-left: 160px;
 }
 
 .moonDescription .p1,.p2{
@@ -257,4 +280,111 @@ button img{
 .moonDescription .p2{
     margin-left: 20px;
 }
+
+/*Moon Overview css end*/
+
+/* Mars Overview css starts*/
+
+.marsOverview{
+    margin-top: 100px;
+}
+
+.outside{
+    color: #000000;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 150px;
+    margin-left: 160px;
+} 
+
+.marsOverview .inside{
+   position: absolute;
+   width: 770px;
+   height: 300px;
+   margin-left: 60px;
+   z-index: -1;
+}
+
+.marsOverview h2{
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 160px;
+
+}
+
+.marsOverview p{
+    color: #8b8b8b;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.marsDescription{
+    display: flex;
+    flex-direction: row;
+    margin-left: 160px;
+}
+
+.marsDescription .p1,.p2{
+    width: 500px;
+}    
+
+.marsDescription .p2{
+    margin-left: 20px;
+}
+
+/* Mars Overview css ends */
+
+/*Jupiter Overview css starts*/
+
+.jupiterOverview{
+    margin-top: 100px;
+}
+
+.outside{
+    color: #000000;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 170px;
+    margin-left: 160px;
+} 
+
+.jupiterOverview .inside{
+   position: absolute;
+   width: 770px;
+   height: 300px;
+   margin-left: 60px;
+   z-index: -1;
+}
+
+.jupiterOverview h2{
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 160px;
+
+}
+
+.jupiterOverview p{
+    color: #8b8b8b;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.jupiterDescription{
+    display: flex;
+    flex-direction: row;
+    margin-left: 160px;
+}
+
+.jupiterDescription .p1,.p2{
+    width: 500px;
+}    
+
+.jupiterDescription .p2{
+    margin-left: 20px;
+}
+
+/*Jupiter Overview css ends*/
+
 /* Destination css ends*/

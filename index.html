@@ -46,25 +46,68 @@
         <div class="destination-container">
             <h1 class="section-title">DESTINATIONS</h1>
             <div class="image-container">
-                <img class="marsG" src="../Space-Tour/images/marsGIF.gif" alt="mars">
-                <img class="moonG" src="../Space-Tour/images/moonGIF.gif" alt="moon">
-                <img class="jupiterG" src="../Space-Tour/images/jupiterGIF.gif" alt="jupiter">
+                <figure> 
+                    <img class="marsG" src="../Space-Tour/images/marsGIF.gif" alt="mars">
+                    <figcaption>MARS</figcaption>
+                </figure>
+                <figure>
+                    <img class="moonG" src="../Space-Tour/images/moonGIF.gif" alt="moon">
+                    <figcaption>MOON</figcaption>
+                </figure>
+                <figure>
+                    <img class="jupiterG" src="../Space-Tour/images/jupiterGIF.gif" alt="jupiter">
+                    <figcaption>JUPITER</figcaption>
+                </figure>
             </div>
-            <div class="moonOverview">
-                <h1 class="inside">MOON</h1>
+            <div id ="moonsOverview" class="moonOverview">
+                <img class="inside" src="../Space-Tour/images/moonBigHeading.png" alt="bigHeading"></br>
                 <h1 class="outside">THE MOON!</h1>
                 <h2>MORE THAN JUST A DESTINATION</h2>
                 <div class="moonDescription">
                     <p class="p1"> You will have great views of earth, perfect for taking pictures.
                         Not only will you have a luxury experience getting to the moon
                         , you will also be over the moon for the accomodations we have 
-                        for you on earth's </p> 
-                    <p class="p2"> natural satelite. Be sure to look into our 
+                    </p> 
+                    <p class="p2">for you on earth's natural satelite. Be sure to look into our 
                         events held on the moon, you wont want to miss the oppurtunity 
-                        to see the next eclipse
-                        from the moons surface.</p>
+                        to see the next eclipse from the moons surface.
+                    </p>
                 </div>
             </div>
+            <div id ="marsOverview" class="marsOverview" style="visibility: hidden;">
+                <img class="inside" src="../Space-Tour/images/jupiterBigHeading.png" alt="bigHeading"></br>
+                <h1 class="outside">THE RED PLANET</h1>
+                <h2>WE'RE NOT ALONE, MEET OUR INTERPLANETARY NEIGHBORS</h2>
+                <div class="marsDescription">
+                    <p class="p1"> Our newest destination is the shortest trip we offer.
+                        You will have great views of earth, perfect for taking pictures.
+                        Not only will you have a luxury experience getting to the moon
+                        , you will also be over the moon for the accomodations we have 
+                    </p> 
+                    <p class="p2">for you on earth's natural satelite. Be sure to look into our 
+                        events held on the moon, you wont want to miss the oppurtunity 
+                        to see the next eclipse from the moons surface.
+                    </p>
+                </div>
+            </div>
+
+            <div id ="jupiterOverview" class="jupiterOverview" style="visibility: hidden;">
+                <img class="inside" src="../Space-Tour/images/jupiterBigHeading.png" alt="bigHeading"></br>
+                <h1 class="outside">BEHOLD THE STORM</h1>
+                <h2>MORE THAN JUST A GIANT HURRICANE OF DESTRUCTION</h2>
+                <div class="jupiterDescription">
+                    <p class="p1"> 
+                        You will have great views of earth, perfect for taking pictures.
+                        Not only will you have a luxury experience getting to the moon
+                        , you will also be over the moon for the accomodations we have 
+                    </p> 
+                    <p class="p2">for you on earth's natural satelite. Be sure to look into our 
+                        events held on the moon, you wont want to miss the oppurtunity 
+                        to see the next eclipse from the moons surface.
+                    </p>
+                </div>
+            </div>
+            
         </div>
     </div>
 
@@ -74,8 +117,9 @@
 
     <script>
             function myFunction() {
-                document.getElementById('moon').className = "playingMoon";
                 document.getElementById('astronaut').className = "playingAstro";
+                document.getElementById('moon').className = "playingMoon";
+                
             };
 
             function delayFunction(){
@@ -87,6 +131,27 @@
             function showText(){
                 document.getElementById("delayedText").style.visibility = "visible";
             }
+
+            // function destinationOfChoice(classname){
+            //     console.log(classname);
+            //     if(classname == 'moonOverview'){
+            //         document.getElementById('moonOverview').style.visibility= 'visible';
+            //         document.getElementById('marsOverview').style.visibility= 'hidden';
+            //         document.getElementById('jupiterOverview').style.visibility= 'hidden';
+            //     }
+
+            //     if(classname == 'marsOverview'){
+            //         document.getElementById('moonOverview').style.visibility= 'hidden';
+            //         document.getElementById('marsOverview').style.visibility= 'visible';
+            //         document.getElementById('jupiterOverview').style.visibility= 'hidden';
+            //     }
+
+            //     if(classname == 'jupiterOverview'){
+            //         document.getElementById('moonOverview').style.visibility= 'hidden';
+            //         document.getElementById('marsOverview').style.visibility= 'hidden';
+            //         document.getElementById('jupiterOverview').style.visibility= 'visible';
+            //     }
+            // }
     </script>
     
 </body>

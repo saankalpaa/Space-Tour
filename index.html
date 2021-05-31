@@ -46,17 +46,21 @@
         <div class="destination-container">
             <h1 class="section-title">DESTINATIONS</h1>
             <div class="image-container">
+               
                 <figure> 
                     <button onclick="destinationOfChoice('marsOverview');" style="border: none;"><img class="marsG" src="../Space-Tour/images/marsGIF.gif" alt="mars"></button>
                     <figcaption>MARS</figcaption>
                 </figure>
+               
                 <figure>
                     <button onclick="destinationOfChoice('moonOverview');" style="border: none;"><img class="moonG" src="../Space-Tour/images/moonGIF.gif" alt="moon"></button>
                     <figcaption>MOON</figcaption>
                 </figure>
+               
                 <figure>
                     <button onclick="destinationOfChoice('jupiterOverview');" style="border: none;"><img class="jupiterG" src="../Space-Tour/images/jupiterGIF.gif" alt="jupiter"></button>
                     <figcaption>JUPITER</figcaption>
+               
                 </figure>
             </div>
             <div id ="moonOverview" class="moonOverview" style="visibility: visible;">
@@ -132,21 +136,21 @@
                 document.getElementById("delayedText").style.visibility = "visible";
             }
 
-            function destinationOfChoice(classname){
-                console.log(classname);
-                if(classname == 'moonOverview'){
+            function destinationOfChoice(id){
+                console.log(id);
+                if(id == 'moonOverview'){
                     document.getElementById('moonOverview').style.visibility= 'visible';
                     document.getElementById('marsOverview').style.visibility= 'hidden';
                     document.getElementById('jupiterOverview').style.visibility= 'hidden';
                 }
 
-                if(classname == 'marsOverview'){
+                if(id == 'marsOverview'){
                     document.getElementById('moonOverview').style.visibility= 'hidden';
                     document.getElementById('marsOverview').style.visibility= 'visible';
                     document.getElementById('jupiterOverview').style.visibility= 'hidden';
                 }
 
-                if(classname == 'jupiterOverview'){
+                if(id == 'jupiterOverview'){
                     document.getElementById('moonOverview').style.visibility= 'hidden';
                     document.getElementById('marsOverview').style.visibility= 'hidden';
                     document.getElementById('jupiterOverview').style.visibility= 'visible';

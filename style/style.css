@@ -163,19 +163,19 @@ header .navbar ul li a:hover::before{
     /* animation: float 12s ease-in-out infinite; */
 }
 
-@keyframes float {
+/* @keyframes float {
 	0% {
 		transform: translatey(0px);
 	}
     50%{
-        transform:rotateZ(10deg);
+        transform: rotateZ(10deg);
     }
 	100% {
 		transform: translatey(0px);
 	}
-}
+} */
 
-button {
+.exploreBtn {
     background-color: Transparent;
     background-repeat:no-repeat;
     /* border: 2px solid #282f42; */
@@ -190,7 +190,7 @@ button {
     font-weight: lighter;
 }
 
-button img{
+.exploreBtn img{
     border-radius: 50px;
     border: 2px solid #282f42;
 }
@@ -208,7 +208,7 @@ button img{
     font-family: 'Bebas Neue', cursive;
     text-decoration: overline;
     text-decoration-color: #ed1c24;
-    margin-left: 150px;
+    margin-left: 160px;
 }
 
 .image-container{
@@ -230,6 +230,10 @@ figcaption{
     width: 200px;
     height: 180px;
 }
+/* 
+#marsbtn, #moonbtn, #jupiterbtn{
+    border: none;
+} */
 
 /*Moon Overview css starts*/
 
@@ -286,7 +290,7 @@ figcaption{
 /* Mars Overview css starts*/
 
 .marsOverview{
-    margin-top: 100px;
+    margin-top: -450px;
 }
 
 .outside{
@@ -338,7 +342,7 @@ figcaption{
 /*Jupiter Overview css starts*/
 
 .jupiterOverview{
-    margin-top: 100px;
+    margin-top: -420px;
 }
 
 .outside{

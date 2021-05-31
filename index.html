@@ -21,7 +21,7 @@
                         <ul>
                             <li><a class="home" href="#home">HOME</a></li>
                             <li><a href="#about">ABOUT</a></li>
-                            <li><a href="#destinations">DESTINATIONS</a></li>
+                            <li><a href="#destination">DESTINATIONS</a></li>
                             <li><a href="#reviews">REVIEWS</a></li>
                         </ul>
                     </div>
@@ -32,7 +32,7 @@
                 <div id="delayedText" class="quote" style="visibility: hidden;">
                     <h1>TO SPACE</h1>
                     <h1 class="back"><a class="and">&</a> BACK</h1>
-                    <a href="#about"> <button>EXPLORE <img src="../Space-Tour/images/downArrow.png" alt=""> </button></a>
+                    <a href="#destination"> <button class="exploreBtn">EXPLORE <img src="../Space-Tour/images/downArrow.png" alt=""> </button></a>
                 </div>
             </div>
         </div>
@@ -47,19 +47,19 @@
             <h1 class="section-title">DESTINATIONS</h1>
             <div class="image-container">
                 <figure> 
-                    <img class="marsG" src="../Space-Tour/images/marsGIF.gif" alt="mars">
+                    <button onclick="destinationOfChoice('marsOverview');" style="border: none;"><img class="marsG" src="../Space-Tour/images/marsGIF.gif" alt="mars"></button>
                     <figcaption>MARS</figcaption>
                 </figure>
                 <figure>
-                    <img class="moonG" src="../Space-Tour/images/moonGIF.gif" alt="moon">
+                    <button onclick="destinationOfChoice('moonOverview');" style="border: none;"><img class="moonG" src="../Space-Tour/images/moonGIF.gif" alt="moon"></button>
                     <figcaption>MOON</figcaption>
                 </figure>
                 <figure>
-                    <img class="jupiterG" src="../Space-Tour/images/jupiterGIF.gif" alt="jupiter">
+                    <button onclick="destinationOfChoice('jupiterOverview');" style="border: none;"><img class="jupiterG" src="../Space-Tour/images/jupiterGIF.gif" alt="jupiter"></button>
                     <figcaption>JUPITER</figcaption>
                 </figure>
             </div>
-            <div id ="moonsOverview" class="moonOverview">
+            <div id ="moonOverview" class="moonOverview" style="visibility: visible;">
                 <img class="inside" src="../Space-Tour/images/moonBigHeading.png" alt="bigHeading"></br>
                 <h1 class="outside">THE MOON!</h1>
                 <h2>MORE THAN JUST A DESTINATION</h2>
@@ -75,7 +75,7 @@
                 </div>
             </div>
             <div id ="marsOverview" class="marsOverview" style="visibility: hidden;">
-                <img class="inside" src="../Space-Tour/images/jupiterBigHeading.png" alt="bigHeading"></br>
+                <img class="inside" src="../Space-Tour/images/marsBigHeading.png" alt="bigHeading"></br>
                 <h1 class="outside">THE RED PLANET</h1>
                 <h2>WE'RE NOT ALONE, MEET OUR INTERPLANETARY NEIGHBORS</h2>
                 <div class="marsDescription">
@@ -132,26 +132,26 @@
                 document.getElementById("delayedText").style.visibility = "visible";
             }
 
-            // function destinationOfChoice(classname){
-            //     console.log(classname);
-            //     if(classname == 'moonOverview'){
-            //         document.getElementById('moonOverview').style.visibility= 'visible';
-            //         document.getElementById('marsOverview').style.visibility= 'hidden';
-            //         document.getElementById('jupiterOverview').style.visibility= 'hidden';
-            //     }
+            function destinationOfChoice(classname){
+                console.log(classname);
+                if(classname == 'moonOverview'){
+                    document.getElementById('moonOverview').style.visibility= 'visible';
+                    document.getElementById('marsOverview').style.visibility= 'hidden';
+                    document.getElementById('jupiterOverview').style.visibility= 'hidden';
+                }
 
-            //     if(classname == 'marsOverview'){
-            //         document.getElementById('moonOverview').style.visibility= 'hidden';
-            //         document.getElementById('marsOverview').style.visibility= 'visible';
-            //         document.getElementById('jupiterOverview').style.visibility= 'hidden';
-            //     }
+                if(classname == 'marsOverview'){
+                    document.getElementById('moonOverview').style.visibility= 'hidden';
+                    document.getElementById('marsOverview').style.visibility= 'visible';
+                    document.getElementById('jupiterOverview').style.visibility= 'hidden';
+                }
 
-            //     if(classname == 'jupiterOverview'){
-            //         document.getElementById('moonOverview').style.visibility= 'hidden';
-            //         document.getElementById('marsOverview').style.visibility= 'hidden';
-            //         document.getElementById('jupiterOverview').style.visibility= 'visible';
-            //     }
-            // }
+                if(classname == 'jupiterOverview'){
+                    document.getElementById('moonOverview').style.visibility= 'hidden';
+                    document.getElementById('marsOverview').style.visibility= 'hidden';
+                    document.getElementById('jupiterOverview').style.visibility= 'visible';
+                }
+            }
     </script>
     
 </body>

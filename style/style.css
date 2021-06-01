@@ -141,7 +141,7 @@ header .navbar ul li a:hover::before{
 .moon-bg img{
     position: absolute;
     /* right: 0%; */
-    transition: transform 1.5s ease-in;
+    transition: transform 3s ease-in;
 }
 
 .playingMoon{
@@ -155,7 +155,7 @@ header .navbar ul li a:hover::before{
 
 .astronaut-bg img{
     margin-top: 1400px;
-    transition: transform 1.5s ease-in;   
+    transition: transform 3s ease-in;   
 }
 
 .playingAstro{

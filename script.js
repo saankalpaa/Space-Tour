@@ -5,7 +5,7 @@ function myFunction() {
 };
 
 function delayFunction(){
-    var theDelay = 1.5;
+    var theDelay = 3.2;
     setTimeout(() => {
        showText()
     }, theDelay*1000);

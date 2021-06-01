@@ -21,6 +21,8 @@ function destinationOfChoice(id){
         document.getElementById('marsOverview').style.visibility= 'hidden';
         document.getElementById('jupiterOverview').style.visibility= 'hidden';
         document.getElementById('activities-destination').innerHTML= ' MOON';
+        document.getElementById('change-destination').innerHTML= 'Moon';
+
     }
 
     if(id == 'marsOverview'){
@@ -28,6 +30,8 @@ function destinationOfChoice(id){
         document.getElementById('marsOverview').style.visibility= 'visible';
         document.getElementById('jupiterOverview').style.visibility= 'hidden';
         document.getElementById('activities-destination').innerHTML= ' MARS';
+        document.getElementById('change-destination').innerHTML= 'Mars';
+
     }
 
     if(id == 'jupiterOverview'){
@@ -35,5 +39,7 @@ function destinationOfChoice(id){
         document.getElementById('marsOverview').style.visibility= 'hidden';
         document.getElementById('jupiterOverview').style.visibility= 'visible';
         document.getElementById('activities-destination').innerHTML= ' JUPITER';
+        document.getElementById('change-destination').innerHTML= 'Jupiter';
+
     }
 }

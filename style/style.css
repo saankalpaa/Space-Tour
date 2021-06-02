@@ -121,7 +121,7 @@ header .navbar ul li a:hover::before{
     left: 0;
 }
 
-.book-btn{
+/* .book-btn{
     background-color: #202133;
     font-family: 'Bebas Neue', cursive;
     font-size: 15px;
@@ -129,7 +129,7 @@ header .navbar ul li a:hover::before{
     color: #efefef;
     border: 2px solid #202133;
     border-radius: 10px;
-}
+} */
 .quote {
     color: #ffffff;
     font-family: 'Orbitron', sans-serif;

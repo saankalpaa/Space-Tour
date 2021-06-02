@@ -67,7 +67,7 @@ header .row{
     align-items: center;
 }
 header .name{
-    margin-right: 800px;   
+    margin-right: 750px;   
     position: relative; 
     font-family: 'Bebas Neue', cursive;
     font-weight: bold;
@@ -121,6 +121,15 @@ header .navbar ul li a:hover::before{
     left: 0;
 }
 
+.book-btn{
+    background-color: #202133;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+    padding: 5px 20px;
+    color: #efefef;
+    border: 2px solid #202133;
+    border-radius: 10px;
+}
 .quote {
     color: #ffffff;
     font-family: 'Orbitron', sans-serif;
@@ -428,7 +437,7 @@ figcaption{
 .activities-overview-1 .landing-tour, .galactic-arcades,.space-bar{
     margin-left: 115px;
     border: 2px solid #202133;
-    border-radius: 10%;
+    border-radius: 20px;
     background-color: #202133;
     padding: 20px 20px;
 }
@@ -436,7 +445,7 @@ figcaption{
 .activities-overview-2 .rover-expeditions{
     margin-left: 50px;
     border: 2px solid #202133;
-    border-radius: 10%;
+    border-radius: 20px;
     background-color: #202133;
     padding: 20px 20px;
     padding-right: 85px;
@@ -556,13 +565,163 @@ svg{
 
 .reviews .reviews-container .section-title{
     font-size: 60px;
-    color: #ed1c24;
+    color: #ffffff;
     font-family: 'Bebas Neue', cursive;
     text-decoration: overline;
     text-decoration-color: #ed1c24;
     margin-left: 690px;
-    padding-top: 100px; 
+    padding-top: 70px; 
+    padding-bottom: 30px;
+}
+
+.review-column{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 20%;
+}
+
+
+.review-column-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.review-column h3{
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 5px;
+}
+
+.review-column .review-rating{
+    width: 70px;
+    height: 10px;
+}
+
+.review-column .row .musk{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.review-column-1, .review-column-2, .review-column-3{
+    border: 2px solid #202133;
+    padding: 20px 20px;
+    padding-right: 5px;
+    width: 450px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #202133;
+}
+
+.review-column .row .stark{
+    width: 80px;
+    height: 81px;
+    clip-path: circle(50% at 50% 50%);
+}
+.review-column .row .KPba{
+    width: 80px;
+    height: 81px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.reviews .box{
+    display: flex;
+    flex-direction: row;
+}
+
+.reviews .box .slideshow img{
+    width: 398px;
+    height: 478px;
+    margin-left: 350px;
+    border: 2px solid #202133;
+    border-radius: 20px;
 }
 
 /* reviews css ends*/
 
+/* footer css starts*/
+
+.foooter .footer-container{
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+
+}
+
+.foooter .row{
+    display: flex;
+    flex-direction: row;
+    margin-left: 430px;
+}
+
+.foooter .name{
+    position: relative; 
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 100px;
+    color: #000000;   
+    margin-top: 20px;
+}
+.foooter .tour{
+    color: #ed1c24;
+}
+
+.foooter .logo img{
+    width: 150px;
+    height: 150px;
+}
+
+.foooter .navbar ul{
+    list-style: none;
+    padding: 0;
+    margin-left: 420px;
+}
+.foooter .navbar ul li{
+    display:  inline-block;
+    margin-left: 35px;
+}
+
+.foooter .navbar ul li .home{
+    color: #ed1c24;
+}
+
+.foooter .navbar ul li a{
+    text-decoration: none;
+    line-height: 72px;
+    color: #000000;
+    display: block;
+    font-size: 30px;
+    position: relative;
+    font-family: 'Odibee Sans', cursive;
+    font-weight: 900px;
+}
+
+footer{
+   
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #0B0C10;
+    margin-top: 30px;
+}
+
+footer .social{
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer .social a{
+    color: #C5C6C7;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 12px;
+    padding-bottom: 0px;
+}
+
+/* footer css ends*/

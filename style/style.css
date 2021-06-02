@@ -200,7 +200,7 @@ header .navbar ul li a:hover::before{
 /* Destination css starts*/
 
 .destination{
-    padding-top: 120vh;
+    padding-top: 130vh;
     margin-bottom: 160px;
 }
 .destination .destination-container .section-title{
@@ -395,7 +395,7 @@ figcaption{
 .activity{
     height: 100vh;
     background-image: url(../images/bg.png);
-    clip-path: polygon(50% 100%, 100% 55%, 100% 0, 0 0, 0 55%);
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 80% 90%, 49% 100%, 20% 90%, 0 100%, 0% 35%, 0 0);
 }
 
 .activity .section-title{
@@ -404,8 +404,8 @@ figcaption{
     font-family: 'Bebas Neue', cursive;
     text-decoration: overline;
     text-decoration-color: #ed1c24;
-    margin-left: 530px;
-    padding-top: 40px;  
+    margin-left: 555px;
+    padding-top: 100px;  
 }
 
 #activities-destination{
@@ -414,7 +414,7 @@ figcaption{
 }
 
 .activities-overview-1, .activities-overview-2{
-    margin: 50px 210px;
+    margin: 50px 230px;
 }
 
 .activities-overview-1, .activities-overview-2{
@@ -475,7 +475,7 @@ svg{
 }
 
 .btndiv{
-    margin-left: 540px;
+    margin-left: 565px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -499,3 +499,70 @@ svg{
 
 
 /* activity css ends */
+
+/* gallery css starts*/
+
+.gallery .gallery-container .section-title{
+    font-size: 60px;
+    color: #ed1c24;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: overline;
+    text-decoration-color: #ed1c24;
+    margin-left: 630px;
+    padding-top: 60px; 
+}
+.gallery .gallery-container .row{
+    margin-left: 40px;
+}
+.column-1 img{
+    margin: 170px 30px;
+}
+.column-2 img{
+    width: 328px; height: 415px;
+    margin-top: 100px;
+}
+.column-3, .column-4{
+    display: flex;
+    flex-direction: column;
+}
+
+.column-3 .column-3-2 img, .column-3-1 img{
+    width: 248px;
+    height: 248px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.column-4-1 img{
+    width: 426px; height: 188px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.column-4-2 img{
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+/* gallery css ends*/
+
+/* reviews css starts*/
+
+.reviews{
+    background-image: url(../images/bg.png);
+    height: 100vh;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 0, 100% 100%, 78% 100%, 50% 100%, 24% 100%, 0 100%, 0 0, 20% 10%);
+}
+
+.reviews .reviews-container .section-title{
+    font-size: 60px;
+    color: #ed1c24;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: overline;
+    text-decoration-color: #ed1c24;
+    margin-left: 690px;
+    padding-top: 100px; 
+}
+
+/* reviews css ends*/
+

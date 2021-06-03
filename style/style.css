@@ -145,6 +145,7 @@ header .navbar ul li a:hover::before{
 .moon-bg img{
     position: absolute;
     transition: transform 3s ease-in;
+    z-index: -2;
 }
 
 .playingMoon{
@@ -504,6 +505,11 @@ svg{
     border-radius: 10px;
     cursor: pointer;
 }
+
+.destinationbtn:hover{
+    background: hsl(145, 95%, 44%);
+}
+
 .btndiv .bookbtn {
     padding-right: 60px;
     padding-left: 60px;
@@ -560,7 +566,7 @@ svg{
 .popup {
     margin: 70px auto;
     padding: 20px;
-    background: #fff;
+    background: #ffffff;
     border-radius: 5px;
     width: 30%;
     position: relative;
@@ -613,6 +619,10 @@ svg{
     display: inline-block;
     margin: 0px 12px;
     padding-bottom: 0px;
+}
+
+.social a:hover{
+    color: #ed1c24;
 }
 /* popup css starts*/
 

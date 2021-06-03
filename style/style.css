@@ -130,6 +130,7 @@ header .navbar ul li a:hover::before{
     font-family: 'Orbitron', sans-serif;
     margin-left: 100px;
     font-size: 70px;
+    padding-top: 40px;
 }
 
 .quote .back{

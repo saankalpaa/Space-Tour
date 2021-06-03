@@ -513,6 +513,10 @@ svg{
 .btndiv .destinationbtn{
     margin-left: 45px;
 }
+/* activity css ends */
+
+
+/* popup css starts*/
 
 .bookbtn{
     border: 2px solid #ed1c24;
@@ -610,8 +614,8 @@ svg{
     margin: 0px 12px;
     padding-bottom: 0px;
 }
+/* popup css starts*/
 
-/* activity css ends */
 
 /* gallery css starts*/
 
@@ -719,16 +723,12 @@ svg{
     background-color: #202133;
 }
 
-.review-column .row .stark{
+.review-column .row .stark,.bill-gates,.elon{
     width: 80px;
     height: 81px;
     clip-path: circle(50% at 50% 50%);
 }
-.review-column .row .KPba{
-    width: 80px;
-    height: 81px;
-    clip-path: circle(50% at 50% 50%);
-}
+
 
 .reviews .box{
     display: flex;

@@ -6,7 +6,7 @@ body{
     margin: 0;
     background-image: url('../images/bg.png');
     background-repeat: no-repeat;
-    background-size: 1519px 800px;
+    background-size: 100% 750px;
 }
 
 *{
@@ -47,10 +47,7 @@ body{
 header{
     background-color: transparent;
     position: absolute;
-    left: 0px;
-    right: 0px;
     padding-bottom: 93vh;
-    /* z-index: 2; */
 }
 
 header .row{
@@ -59,11 +56,10 @@ header .row{
     z-index: 1;
 }
 header .row{
-    
     align-items: center;
 }
 header .name{
-    margin-right: 750px;   
+    margin-right: 700px;   
     position: relative; 
     font-family: 'Bebas Neue', cursive;
     font-weight: bold;
@@ -117,14 +113,13 @@ header .navbar ul li a:hover::before{
     left: 0;
 }
 
-.book-btn{
+.bookbtn{
     background-color: #202133;
     font-family: 'Bebas Neue', cursive;
     font-size: 15px;
     padding: 5px 20px;
     color: #efefef;
     border: 2px solid #202133;
-    border-radius: 10px;
 }
 
 .home .container{
@@ -168,10 +163,13 @@ header .navbar ul li a:hover::before{
 
 .playingAstro{
     transform: translatey(-1400px);
-    /* animation: float 12s ease-in-out infinite; */
 }
 
-/* @keyframes float {
+/* .playingAstroFloat{
+    animation: float 12s ease-in-out infinite;
+} */
+
+@keyframes float {
 	0% {
 		transform: translatey(0px);
 	}
@@ -181,13 +179,13 @@ header .navbar ul li a:hover::before{
 	100% {
 		transform: translatey(0px);
 	}
-} */
+}
 
 .exploreBtn {
     background-color: Transparent;
     background-repeat:no-repeat;
-    /* border: 2px solid #282f42; */
     border: none;
+    padding: 10px 10px;
     cursor:pointer;
     overflow: hidden;
     outline:none;
@@ -196,8 +194,7 @@ header .navbar ul li a:hover::before{
     font-size: 30px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: lighter;
-    margin-bottom: 280px;
-    /* z-index: -1; */
+    margin-bottom: 250px;
 }
 
 .exploreBtn img{
@@ -205,6 +202,11 @@ header .navbar ul li a:hover::before{
     border: 2px solid #282f42;
 }
 
+.exploreBtn:hover {
+    background: #ed1c24;
+    color: #ffffff;
+    border: 2px solid #282f42;
+}
 /* header section ends */
 
 /* Destination css starts*/
@@ -241,6 +243,7 @@ figcaption{
 .marsG,.jupiterG, .moonG{
     width: 200px;
     height: 180px;
+    cursor: pointer;
 }
 
 /*Moon Overview css starts*/
@@ -486,7 +489,7 @@ svg{
 }
 
 .btndiv{
-    margin-left: 565px;
+    margin-left: 575px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -497,6 +500,7 @@ svg{
     color: #efefef;
     border: 2px solid #202133;
     border-radius: 10px;
+    cursor: pointer;
 }
 .btndiv .bookbtn {
     padding-right: 60px;
@@ -508,6 +512,102 @@ svg{
     margin-left: 45px;
 }
 
+.bookbtn{
+    border: 2px solid #ed1c24;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#book-btn{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
+.bookbtn:hover {
+    background: #ed1c24;
+}
+
+#book-btn:hover {
+    background: hsl(145, 95%, 44%);
+}
+  
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+  
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+  
+.popup h2 {
+    margin-top: 0;
+    margin-left: 180px;
+    color: #333;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #06D85F;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+.popup .content p{
+    color: #202133;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 10px 2px;
+}
+.popup .content  .social{
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.popup .content .social a{
+    color: #202133;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 12px;
+    padding-bottom: 0px;
+}
 
 /* activity css ends */
 

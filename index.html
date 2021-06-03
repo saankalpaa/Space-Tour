@@ -15,7 +15,7 @@
     <header>
         <!-- <div class="bgImg"> -->
             <div class="container">
-                <div class="row">
+                <div class="row" style="width: 100%;">
                     <div class="logo"><img src="images/mars.png" alt="mars" class="rotate"></div>
                     <div class="name">SPACE<a class="tour"> TOUR</a></div>
                     <div class="navbar">
@@ -24,7 +24,24 @@
                             <li><a href="#destination">DESTINATIONS</a></li>
                             <li><a href="#gallery">GALLERY</a></li>
                             <li><a href="#reviews">REVIEWS</a></li>
-                            <li><a href="#book"><button class="book-btn">BOOK</button></a></li>
+                            <li><a href="#popup1"><button class="bookbtn">BOOK</button></a></li>
+                            <div id="popup1" class="overlay">
+                                <div class="popup">
+                                    <h2>NOTICE</h2>
+                                    <a class="close" href="#">&times;</a>
+                                    <div class="content">
+                                         <p>Due to the ongoing pandemic we are currently closed.
+                                         We will update once we open back again.
+                                         Make sure you follow our socials
+                                         <a style="font-weight: 900;"> #stayhome#staysafe</a></p>
+                                        <div class="social">
+                                            <a href="https://www.facebook.com/sankalpa.utd"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://www.linkedin.com/in/sankalpa-pokhrel-a1952213b/"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://github.com/saankalpaa"><i class="fa fa-github"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </ul>
                     </div>
                 </div>
@@ -44,7 +61,7 @@
             <div id="delayedText" class="quote" style="visibility: hidden;">
                 <h1>TO SPACE</h1>
                 <h1 class="back"><a class="and">&</a> BACK</h1>
-                <a href="#destination"> <button class="exploreBtn">EXPLORE <img src="../Space-Tour/images/downArrow.png" alt=""> </button></a>
+                <a href="#gallery"> <button class="exploreBtn">EXPLORE <img src="../Space-Tour/images/downArrow.png" alt=""> </button></a>
             </div>
         </div>
     </div>
@@ -218,10 +235,30 @@
                     
                 </div>
             </div>
+            
             <div class="btndiv">
-                <button class="bookbtn"><a>BOOK</a></button>
-                <button class="destinationbtn">DESTINATIONS</button>
+                <a href="#popup1"><button class="bookbtn" id="book-btn">BOOK</button></a>
+                <a href="#destination"><button class="destinationbtn">DESTINATIONS</button></a>
             </div>
+
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <h2>NOTICE</h2>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        <p>Due to the ongoing pandemic we are currently closed.
+                        We will update once we open back again.
+                        Make sure you follow our socials
+                        <a style="font-weight: 900;"> #stayhome#staysafe</a></p>
+                       <div class="social">
+                           <a href="https://www.facebook.com/sankalpa.utd"><i class="fa fa-facebook"></i></a>
+                           <a href="https://www.linkedin.com/in/sankalpa-pokhrel-a1952213b/"><i class="fa fa-linkedin"></i></a>
+                           <a href="https://github.com/saankalpaa"><i class="fa fa-github"></i></a>
+                       </div>
+                   </div>
+                </div>
+            </div>
+
         </div>
     </div>
     <!--Activity section ends-->

@@ -4,10 +4,18 @@ function myFunction() {
     
 };
 
+function floatAnimation() {
+    var identity=document.getElementById('astronaut');
+    console.log(identity); 
+    identity.style.marginTop = '0px';
+    identity.style.animation = 'float 12s ease-in-out infinite';
+}
+
 function delayFunction(){
     var theDelay = 3.2;
     setTimeout(() => {
-       showText()
+       showText();
+       floatAnimation();
     }, theDelay*1000);
 }
 function showText(){

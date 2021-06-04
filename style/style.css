@@ -9,6 +9,10 @@ body{
     background-size: 100% 750px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -191,7 +195,7 @@ header .navbar ul li a:hover::before{
     cursor:pointer;
     overflow: hidden;
     outline:none;
-    color: #282f42;
+    color: #464f69;
     margin-top: 80px;
     font-size: 30px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -207,7 +211,8 @@ header .navbar ul li a:hover::before{
 .exploreBtn:hover {
     background: #ed1c24;
     color: #ffffff;
-    border: 2px solid #282f42;
+    border: 2px solid #464f69;
+    ;
 }
 /* header section ends */
 
@@ -751,7 +756,9 @@ svg{
     margin-left: 350px;
     border: 2px solid #202133;
     border-radius: 20px;
+    background-size: cover;
 }
+
 
 /* reviews css ends*/
 

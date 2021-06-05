@@ -1,0 +1,48 @@
+
+@media screen and (max-width: 768px){
+
+    body{
+        background-size: 100% 450px;
+    }
+
+    header .name{
+        margin-right: 100px;
+        font-size: 30px;
+    }
+
+    .logo img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .quote{
+        font-size: 30px;
+        margin-left: 25px;
+    }
+
+    .moon-bg img{
+        width: 35%;
+        height: 35%;
+    }
+
+    .astronaut-bg img{
+        width: 70%;
+        height: 70%;
+        margin-left: 180px;
+    }
+
+    .playingMoon{
+        transform: translateX(420px);
+    }
+
+    .exploreBtn{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .exploreBtn img{
+        width: 17%;
+    }
+
+
+}

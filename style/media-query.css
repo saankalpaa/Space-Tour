@@ -324,6 +324,7 @@
 
     /* reviews media query starts */
 
+
     .reviews .reviews-container .section-title{
         font-size: 40px;
         margin-left: 335px;
@@ -495,12 +496,13 @@
     .popup{
         margin-left: 100px;
         padding: 10px;
+        width: 200px;
     }
 
     .popup h2 {
 
         font-size: 20px;
-        margin-left: 95px;
+        margin-left: 65px;
     }
 
     .popup .content p{
@@ -684,6 +686,8 @@
 
     .activity{
         height: 80vh;
+        clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 79% 96%, 50% 100%, 21% 96%, 0 100%, 0% 35%, 0 0);
+
     }
 
     .activity .section-title{
@@ -811,56 +815,95 @@
 
     /*reviews media query starts*/
 
+    .reviews{
+        height: 80vh;
+        clip-path: polygon(51% 100%, 100% 100%, 100% 35%, 100% 0, 78% 4%, 52% 0, 28% 4%, 0 0, 0% 35%, 0 100%);
+    }
+
     .reviews .reviews-container .section-title{
         font-size: 30px;
-        margin-left: 175px;
-        padding-top: 40px; 
-        padding-bottom: 40px;
+        margin-left: 185px;
+        padding-top: 60px; 
+        padding-bottom: 10px;
     }
 
     .review-column{
-        right: 10%;
+        right: 20px;
         margin-top: 20px;
     }
     .review-column h3{
-        font-size: 18px;
+        font-size: 13px;
     }
     .review-column p{
-        font-size: 15px;
+        font-size: 11px;
     }
     .review-column .review-rating{
-        width: 50px;
+        width: 30px;
         height: 7px;
     }
     .review-column-1, .review-column-2, .review-column-3{
-        padding: 7px 10px;
-        padding-right: 5px;
-        width: 280px;
-        margin-top: 10px;
+        padding: 5px 3px;
+        width: 150px;
+        margin-top: px5;
     }
     
-    .review-column .row .stark,.bill-gates,.elon{
-        width: 60px;
-        height: 61px;
+    .review-column .row .bill-gates,.elon{
+        width: 50px;
+        height: 41px;
         clip-path: circle(50% at 50% 50%);
-        margin-top: 11px;
+        margin-top: 21px;
     }
 
-    .review-column-2 .stark{
-        margin-right: 9px;
-        width: 70px;
+    .review-column .row .musk {
+        margin-left: 10px;
+    }
+
+    .review-column .row .stark {
+        margin-right: 5px;
+        width: 50px;
+        height: 51px;
+        margin-top: 25px;
+    }
+    .review-column-3{
+        padding-top: 0px;
+    }
+    .review-column-2{
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+    .review-column-1{
+        padding-bottom: 30px;
+        padding-top: 0px;
     }
 
     .reviews .box .slideshow img{
-        width: 318px;
-        height: 398px;
-        margin-left: 70px;
+        width: 218px;
+        height: 298px;
+        margin-left: 20px;
+        margin-top: 40px;
     }
-
 
     /*reviews media query ends*/
 
-   
+   /* footer media query starts */
+
+   .foooter .row{
+        margin-left: 60px;
+        padding: 10px 30px;
+    }
+
+    .foooter .name{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .foooter .logo img{
+        width: 60px;
+        height: 60px;
+        margin-top: 10px;
+    }
+
+    /* footer media query ends */
 
     
 }

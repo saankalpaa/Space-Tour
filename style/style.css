@@ -651,6 +651,7 @@ svg{
     color: #202133;
     font-family: 'Roboto Condensed', sans-serif;
     margin: 10px 2px;
+    text-align: justify;
 }
 .popup .content  .social{
     flex: 0 0 100%;

@@ -201,7 +201,7 @@
 
     /*destination media query ends*/
 
-    /* activity css starts */
+    /* activity media query starts */
 
     .activity .section-title{
         font-size: 40px;
@@ -269,12 +269,11 @@
     .btndiv .destinationbtn{
         margin-left: 20px;
     }
-    /* activity css ends */
+    /* activity media query ends */
 
-    /* gallery css starts */
+    /* gallery media query starts */
 
     .gallery{
-
         height: 80vh;
     }
 
@@ -321,9 +320,9 @@
         width: 207px;
     }
 
-    /* gallery css ends */
+    /* gallery media query ends */
 
-    /* reviews css starts */
+    /* reviews media query starts */
 
     .reviews .reviews-container .section-title{
         font-size: 40px;
@@ -372,9 +371,9 @@
         margin-left: 70px;
     }
 
-    /* reviews css ends */
+    /* reviews media query ends */
 
-    /* footer css starts */
+    /* footer media query starts */
 
     .foooter .row{
         margin-left: 150px;
@@ -392,9 +391,9 @@
         margin-top: 10px;
     }
 
-    /* footer css ends */
+    /* footer media query ends */
     
-    /* popup css starts */
+    /* popup media query starts */
     .popup h2 {
         margin-left: 80px;
     }
@@ -403,7 +402,7 @@
         width: 35%;
     }
 
-    /* popup css ends */
+    /* popup media query ends */
 }
 
 @media screen and (max-width: 426px){
@@ -549,10 +548,10 @@
         font-size: 15px;
     }
 
-     /* moon description starts */
+    /* moon description starts */
 
      .moonOverview{
-        margin-top: 20px;
+        margin-top: 40px;
         margin-left: 0px;
     }
 
@@ -594,8 +593,8 @@
 
     /* mars description starts */
 
-     .marsOverview{
-        margin-top: -200px;
+    .marsOverview{
+        margin-top: -190px;
         margin-left: 0px;
     }
 
@@ -635,9 +634,231 @@
 
     /* mars description ends */
 
+    /* jupiter description starts */
+
+    .jupiterOverview{
+        margin-top: -230px;
+        margin-left: 0px;
+    }
+
+    .jupiterOverview .inside{
+        width: 250px;
+        height: 80px;
+        margin-left: 10px;
+    }
+
+    .jupiterOverview h1{
+        font-size: 25px;
+        margin-top: 30px;
+        margin-left: 29px;
+    }
+
+    .jupiterOverview h2{
+        font-size: 20px;
+        margin-left: 29px;
+    }
+
+    .jupiterOverview p{
+        font-size: 12px;
+    }
+
+    .jupiterDescription{
+        margin-left: 30px;
+        flex-direction: column;
+    }
+
+    .jupiterDescription .p1, .p2{
+        width: 292px;
+    }
+
+    .jupiterDescription .p2 {
+        margin-left: 0;
+    }
+
+    /* jupiter description ends */
+
 
     /*destination media query ends*/
 
+    /*Activity media query starts*/
+
+    .activity{
+        height: 80vh;
+    }
+
+    .activity .section-title{
+        font-size: 30px;
+        margin-left: 110px;
+        padding-top: 50px;
+    }
+
+    .activities-overview-1, .activities-overview-2{
+        margin: 30px 15px;
+        margin-left: 0;
+    }
+
+    .activities-overview-1 .landing-tour, .galactic-arcades{
+        margin-left: 15px;
+        padding: 20px 10px;
+        padding-bottom: 0px;
+    }
+    
+    .activities-overview-2 .rover-expeditions{
+        margin-left: 20px;
+        padding: 20px 20px;
+        padding-right: 0px;
+    }
+    
+    .activities-overview-2 .space-bar{
+        padding-right: 12px;
+        padding: 20px 10px;
+        margin-left: 15px;
+    }
+    
+    .activities-overview-1 .landing-tour{
+        padding-right: 12px;
+    }
+    
+    .activities-overview-1 .galactic-arcades{
+        margin-left: 20px;
+        padding-right: 10px;
+    }
+    .activities-overview-1 h3 ,.activities-overview-2 h3{
+        font-size: 14px;
+        width: 115px;
+        margin-bottom: 5px;
+    }
+
+    .activities-overview-1 p ,.activities-overview-2 p{
+        font-size: 10px;
+        width: 115px;
+    }
+
+    svg{
+        width: 150%;
+        padding-right: 30px;
+    }
+
+    
+    .btndiv{
+        margin-left: 85px;
+    }
+
+    .btndiv .bookbtn, .destinationbtn {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+
+    .btndiv .bookbtn {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    /*Activity media query ends*/
+    
+    /*gallery media query starts*/
+
+    .gallery{
+        height: 63vh;
+    }
+
+    .gallery .gallery-container .section-title{
+        font-size: 30px;
+        margin-left: 140px;
+    }
+
+    .gallery .gallery-container .row{
+        margin-left: 20px;
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
+ 
+    .column-1 img{
+        display: none;
+    }
+
+    .column-2 img{
+        width: 140px; height: 200px;
+        margin-top: 80px;
+    }
+    
+    .column-3 .column-3-2 img, .column-3-1 img{
+        width: 100px;
+        height: 108px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .column-3 .column-3-1 img{
+        margin-top: 60px;
+    }
+    
+    .column-4-1 img {
+        width: 125px;
+        height: 95px;
+        margin-left: 13px;
+        margin-top: 25px;
+    }
+    
+    .column-4-2 img {
+        height: 95px;
+        margin-left: 12px;
+        margin-top: 70px;
+        width: 125px;
+    }
+
+    /*gallery media query ends*/
+
+    /*reviews media query starts*/
+
+    .reviews .reviews-container .section-title{
+        font-size: 30px;
+        margin-left: 175px;
+        padding-top: 40px; 
+        padding-bottom: 40px;
+    }
+
+    .review-column{
+        right: 10%;
+        margin-top: 20px;
+    }
+    .review-column h3{
+        font-size: 18px;
+    }
+    .review-column p{
+        font-size: 15px;
+    }
+    .review-column .review-rating{
+        width: 50px;
+        height: 7px;
+    }
+    .review-column-1, .review-column-2, .review-column-3{
+        padding: 7px 10px;
+        padding-right: 5px;
+        width: 280px;
+        margin-top: 10px;
+    }
+    
+    .review-column .row .stark,.bill-gates,.elon{
+        width: 60px;
+        height: 61px;
+        clip-path: circle(50% at 50% 50%);
+        margin-top: 11px;
+    }
+
+    .review-column-2 .stark{
+        margin-right: 9px;
+        width: 70px;
+    }
+
+    .reviews .box .slideshow img{
+        width: 318px;
+        height: 398px;
+        margin-left: 70px;
+    }
+
+
+    /*reviews media query ends*/
 
    
 

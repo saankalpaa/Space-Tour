@@ -18,22 +18,52 @@ html{
     margin: 0;
 }
 
-
-/* header section starts */
-
 .container{
     margin: auto;
 }
+
 .row{
     display: flex;
     flex-direction: row;
 }
 
+/* header section starts */
+
+header{
+    background-color: transparent;
+    position: absolute;
+    padding-bottom: 93vh;
+}
+
+header .row{
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+}
+
+header .row{
+    align-items: center;
+}
+
+header .name{
+    margin-right: 700px;   
+    position: relative; 
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+header .name a{
+    color: #ed1c24;
+}
+
 .logo img{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin-left: 10px;
     padding: 3px;
+    margin-top: 5px;
 }
 
 .rotate {
@@ -48,60 +78,53 @@ html{
       transform: rotate(359deg);
     }
 }
-header{
-    background-color: transparent;
-    position: absolute;
-    padding-bottom: 93vh;
-}
 
-header .row{
-    background-color: black;
-    position: fixed;
-    z-index: 1;
-}
-header .row{
+.navbar {
+    display: flex;
+    position: relative;
     align-items: center;
 }
-header .name{
-    margin-right: 700px;   
-    position: relative; 
-    font-family: 'Bebas Neue', cursive;
-    font-weight: bold;
-    font-size: 50px;
-    color: #ffffff;
+
+.brand-title{
+    display: flex;
+    flex-direction: row;
 }
 
-header .name a{
-    color: #ed1c24;
+.navbar-links {
+    height: 100%;
 }
 
-header .navbar ul{
-    list-style: none;
+.navbar-links ul {
+    display: flex;
+    margin: 0;
     padding: 0;
-    margin-right: 50px;
-}
-header .navbar ul li{
-    display:  inline-block;
-    margin-left: 35px;
 }
 
-header .navbar ul li .home{
-    color: #ed1c24;
+.navbar-links li {
+    list-style: none;
 }
 
-header .navbar ul li a{
+.navbar-links li a {
+    display: block;
     font-size: 15px;
     text-decoration: none;
+    color: white;
+    padding: 1rem;
     line-height: 72px;
-    color: #ffffff;
-    display: block;
     font-family: 'Bebas Neue', cursive;
-    font-weight: 300px;
     font-size: 20px;
+    font-weight: 300px;
     position: relative;
-
+    padding-top: 0;
+    padding-bottom: 0;
+   
 }
-header .navbar ul li a::before{
+
+.navbar-links li .home{
+    color: #ed1c24;
+}
+
+.navbar-links li a::before{
     content: '';
     height: 3px;
     background-color:#ed1c24;
@@ -112,9 +135,27 @@ header .navbar ul li a::before{
     bottom: -1px;
 }
 
-header .navbar ul li a:hover::before{
+.navbar-links li a:hover::before{
     width: 100%;
     left: 0;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .bookbtn{

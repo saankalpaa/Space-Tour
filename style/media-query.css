@@ -8,7 +8,7 @@
     /*home media query starts*/
 
     header .name{
-        margin-right: 120px;
+        margin-right: 170px;
         font-size: 30px;
     }
 
@@ -273,6 +273,11 @@
 
     /* gallery css starts */
 
+    .gallery{
+
+        height: 80vh;
+    }
+
     .gallery .gallery-container .section-title{
         font-size: 40px;
         margin-left: 285px;
@@ -399,9 +404,43 @@
 
 
     /* popup css ends */
+}
 
+@media screen and (max-width: 426px){
 
+    /*navbar media query starts*/
 
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .toggle-button {
+        display: flex;
+    }
 
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+    
+    /*navbar media query ends*/
+    
 }

@@ -328,7 +328,7 @@
     .reviews .reviews-container .section-title{
         font-size: 40px;
         margin-left: 335px;
-        padding-top: 40px; 
+        padding-top: 80px; 
         padding-bottom: 40px;
     }
 
@@ -400,7 +400,7 @@
     }
 
     .popup{
-        width: 35%;
+        width: 25%;
     }
 
     /* popup media query ends */
@@ -864,13 +864,16 @@
         height: 51px;
         margin-top: 25px;
     }
+
     .review-column-3{
         padding-top: 0px;
     }
+
     .review-column-2{
         padding-bottom: 10px;
         padding-top: 0px;
     }
+
     .review-column-1{
         padding-bottom: 30px;
         padding-top: 0px;
@@ -885,9 +888,9 @@
 
     /*reviews media query ends*/
 
-   /* footer media query starts */
+    /* footer media query starts */
 
-   .foooter .row{
+    .foooter .row{
         margin-left: 60px;
         padding: 10px 30px;
     }
@@ -904,6 +907,231 @@
     }
 
     /* footer media query ends */
+}
 
+@media screen and (max-width: 321px){
+
+    body{
+        background-size: 100% 170px;
+    }
+
+    .logo img{
+        width: 25px;
+        height: 25px;
+        margin-top: 2px;
+    }
+
+    .home .container{
+        padding-top: 30px;
+    }
+
+    header .name{
+        margin-right: 190px;
+        font-size: 25px;
+    }
+
+    .navbar-links ul li a {
+        line-height: 6px;
+    }
+
+    .bookbtn{
+        font-size: 12px;
+        padding: 2px 10px;
+    }
+
+    .toggle-button {
+        width: 15px;
+        height: 15px;
+    }
+
+    .moon-bg img{
+        width: 90px;
+        height: 105px;
+    }
+
+    .astronaut-bg img{
+        width: 50%;
+        height: 50%;
+    }
+
+    .playingMoon{
+        transform: translateX(220px);
+    }
+
+    .quote {
+        margin-left: 20px;
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    .exploreBtn{
+        font-size: 10px;
+        margin-top: 8px;
+        padding: 3px 3px;
+    }
+
+    .destination{
+        padding-top: 10px;
+        height: 60vh;
+    }
+
+    .destination .destination-container .section-title{
+        font-size: 25px;
+        margin-left: 30px;
+    }
+
+    .marsG,.jupiterG, .moonG{
+        width: 40px;
+        height: 40px;
+    }
+
+    .image-container figure{
+        margin-left: 5px;
+    }
+
+    figcaption{
+        font-size: 10px;
+    }
+        
+    .moonDescription .p1, .p2{
+        width: 223px;
+    }
+
+    .marsDescription .p1, .p2{
+        width: 230px;
+    }
+
+    .marsOverview{
+        margin-top: -240px;
+    }
+
+    .jupiterDescription .p1, .p2{
+        width: 223px;
+    }
+
+    .jupiterOverview{
+        margin-top: -260px;
+    }
+
+    .popup{
+        margin-left: 60px;
+    }
+
+    .activity .section-title{
+        font-size: 25px;
+        margin-left: 73px;
+    }
+
+    .activities-overview-1 h3 ,.activities-overview-2 h3{
+        font-size: 12px;
+        width: 70px;
+        margin-bottom: 5px;
+    }
+
+    .activities-overview-1 p ,.activities-overview-2 p{
+        font-size: 8px;
+        width: 65px;
+    }
+
+    .btndiv{
+        margin-left: 63px;
+    }
+
+    .btndiv .bookbtn, .destinationbtn {
+        font-size: 10px;
+        padding: 5px 5px;
+    }
+
+    .btndiv .bookbtn {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .gallery{
+        height: 50vh;
+    }
+    .gallery .gallery-container .section-title{
+        font-size: 25px;
+        margin-left: 110px;
+    }
+
+    .gallery .gallery-container .row{
+        margin-bottom: 0px;
+        margin-left: 10px ;
+    }
+
+    .column-2 img{
+        margin-top: 45px;
+    }
+ 
+    .column-3 .column-3-2 img, .column-3-1 img{
+        display: none;
+    }
+
+    .column-4-1 img {
+        width: 145px;
+        height: 95px;
+        margin-top: 0px;
+    }
     
+    .column-4-2 img {
+        height: 95px;
+        margin-top: 50px;
+        width: 145px;
+    }
+
+    .reviews .reviews-container .section-title{
+        font-size: 25px;
+        margin-left: 135px;
+    }
+
+    .reviews .box .slideshow img{
+        width: 180px;
+        height: 198px;
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+
+    .review-column{
+        flex-direction: row;
+        margin-top: 230px;
+        margin-left: 30px;
+        right: 8px;
+    }
+
+    .review-column-3{
+        display: none;
+    }
+
+    .review-column-1{
+        margin-left: 40px;
+        height: 100px;
+        padding-top: 0;
+    }
+    
+    .review-column-2{
+        padding-top: 0;
+        height: 100px;
+        margin-left: 5px;
+    }
+
+    .foooter{
+        height: 30px;
+    }
+
+    .foooter .row{
+        margin-left: 60px;
+        padding: 0px 30px;
+    }
+
+    .foooter .name{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .foooter .logo img{
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+    }
 }

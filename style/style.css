@@ -329,6 +329,7 @@ figcaption{
     color: #8b8b8b;
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
+    text-align: justify;
 }
 
 .moonDescription{
@@ -381,6 +382,7 @@ figcaption{
     color: #8b8b8b;
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
+    text-align: justify;
 }
 
 .marsDescription{
@@ -433,6 +435,7 @@ figcaption{
     color: #8b8b8b;
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
+    text-align: justify;
 }
 
 .jupiterDescription{

@@ -153,7 +153,7 @@
     }
 
     .marsDescription .p1, .p2{
-        width: 280px;
+        width: 287px;
     }
 
     /* mars description ends */
@@ -393,6 +393,8 @@
     }
 
     /* footer css ends */
+    
+    /* popup css starts */
     .popup h2 {
         margin-left: 80px;
     }
@@ -400,13 +402,16 @@
     .popup{
         width: 35%;
     }
-    /* popup css starts */
-
 
     /* popup css ends */
 }
 
 @media screen and (max-width: 426px){
+
+    body{
+        background-size: 100% 250px;
+    }
+    
 
     /*navbar media query starts*/
 
@@ -417,6 +422,12 @@
 
     .toggle-button {
         display: flex;
+        width: 20px;
+    }
+
+    header .name{
+        margin-right: 270px;
+        font-size: 30px;
     }
 
     .navbar-links {
@@ -435,6 +446,7 @@
 
     .navbar-links ul li a {
         padding: .5rem 1rem;
+        line-height: 24px;
     }
 
     .navbar-links.active {
@@ -442,5 +454,192 @@
     }
     
     /*navbar media query ends*/
+
+    /* home media query starts */
+
+   
+    .home .container{
+        padding-top: 50px;
+    }
+    .quote {
+        margin-left: 40px;
+        font-size: 15px;
+        padding-top: 20px;
+    }
+
+    .exploreBtn{
+        font-size: 15px;
+        margin-top: 20px;
+        padding: 5px 5px;
+
+    }
+
+    .moon-bg img{
+        width: 150px;
+        height: 165px;
+    }
+
+    .astronaut-bg img{
+        width: 60%;
+        height: 60%;
+        margin-left: 120px;
+    }
+
+    .playingMoon{
+        transform: translateX(270px);
+    }
+
+    /* home media query ends */
+
+    /* popup media query starts */
+
+    .popup{
+        margin-left: 100px;
+        padding: 10px;
+    }
+
+    .popup h2 {
+
+        font-size: 20px;
+        margin-left: 95px;
+    }
+
+    .popup .content p{
+        
+        font-size: 11px;
+    }
+
+    .popup .content .social a{
+        font-size: 12px;
+    }
+
+    .popup .close{
+        top: 5px;
+        right: 15px;
+    }
+   
+    /* popup media query ends */
+
+    /*destination media query starts*/
+
+    .destination{
+        padding-top: 60px;
+        height: 70vh;
+
+    }
+    .destination .destination-container .section-title{
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+    .image-container{
+        margin-left: 20px;
+    }
+
+    .marsG,.jupiterG, .moonG{
+        width: 70px;
+        height: 60px;
+    }
+
+    .image-container figure{
+        margin-left: 5px;
+    }
+    
+    figcaption{
+        font-size: 15px;
+    }
+
+     /* moon description starts */
+
+     .moonOverview{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .moonOverview .inside{
+        width: 250px;
+        height: 80px;
+        margin-left: 10px;
+    }
+
+    .moonOverview h1{
+        font-size: 25px;
+        margin-top: 30px;
+        margin-left: 29px;
+    }
+
+    .moonOverview h2{
+        font-size: 20px;
+        margin-left: 29px;
+    }
+
+    .moonOverview p{
+        font-size: 12px;
+    }
+
+    .moonDescription{
+        margin-left: 30px;
+        flex-direction: column;
+    }
+
+    .moonDescription .p1, .p2{
+        width: 292px;
+    }
+
+    .moonDescription .p2 {
+        margin-left: 0;
+    }
+
+    /* moon description ends */
+
+    /* mars description starts */
+
+     .marsOverview{
+        margin-top: -200px;
+        margin-left: 0px;
+    }
+
+    .marsOverview .inside{
+        width: 250px;
+        height: 80px;
+        margin-left: 10px;
+    }
+
+    .marsOverview h1{
+        font-size: 25px;
+        margin-top: 30px;
+        margin-left: 29px;
+    }
+
+    .marsOverview h2{
+        font-size: 20px;
+        margin-left: 29px;
+    }
+
+    .marsOverview p{
+        font-size: 12px;
+    }
+
+    .marsDescription{
+        margin-left: 30px;
+        flex-direction: column;
+    }
+
+    .marsDescription .p1, .p2{
+        width: 286px;
+    }
+
+    .marsDescription .p2 {
+        margin-left: 0;
+    }
+
+    /* mars description ends */
+
+
+    /*destination media query ends*/
+
+
+   
+
     
 }

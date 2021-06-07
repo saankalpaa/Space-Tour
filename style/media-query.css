@@ -909,6 +909,194 @@
     /* footer media query ends */
 }
 
+@media screen and (max-width: 376px){
+    body{
+        background-size: 100% 190px;
+    }
+
+    header .name{
+        margin-right: 255px;
+        font-size: 22px;
+    }
+
+    .navbar-links ul li a {
+        line-height: 12px;
+    }
+
+    .logo img{
+        width: 25px;
+        height: 25px;
+        margin-top: 1px;
+    }
+
+
+    .moon-bg img{
+        width: 90px;
+        height: 105px;
+    }
+
+    .astronaut-bg img{
+        width: 50%;
+        height: 50%;
+        margin-left: 133px;
+    }
+
+    .playingMoon{
+        transform: translateX(250px);
+    }
+
+    .quote {
+        margin-left: 20px;
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    .destination{
+        padding-top: 10px;
+        height: 60vh;
+    }
+
+    .destination .destination-container .section-title{
+        font-size: 25px;
+        margin-left: 30px;
+    }
+
+    .marsG,.jupiterG, .moonG{
+        width: 50px;
+        height: 50px;
+    }
+
+    .image-container figure{
+        margin-left: 5px;
+    }
+
+    figcaption{
+        font-size: 10px;
+    }
+
+    .jupiterOverview{
+        margin-top: -240px;
+    }
+
+    .marsOverview{
+        margin-top: -200px;
+    }
+
+    .activity .section-title{
+        font-size: 25px;
+        margin-left: 90px;
+    }
+
+    .activities-overview-1 h3 ,.activities-overview-2 h3{
+        font-size: 12px;
+        width: 70px;
+        margin-bottom: 5px;
+    }
+
+    .activities-overview-1 p ,.activities-overview-2 p{
+        font-size: 8px;
+        width: 65px;
+    }
+
+    .btndiv{
+        margin-left: 90px;
+    }
+
+    .btndiv .bookbtn, .destinationbtn {
+        font-size: 10px;
+        padding: 8px 8px;
+    }
+
+    .btndiv .bookbtn {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .popup{
+        margin-left: 87px;
+    }
+
+
+    svg{
+        width: 140%;
+        padding-right: 50px;
+    }
+
+    .gallery{
+        height: 60vh;
+    }
+    .gallery .gallery-container .section-title{
+        font-size: 25px;
+        margin-left: 135px;
+    }
+
+    .gallery .gallery-container .row{
+        margin-bottom: 0px;
+        margin-left: 10px ;
+    }
+
+    .column-2 img{
+        margin-top: 75px;
+        height: 150px;
+        width: 100px;
+    }
+ 
+    .column-3 .column-3-2 img, .column-3-1 img{
+        width: 100px;
+        height: 108px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .column-3 .column-3-1 img{
+        margin-top: 40px;
+    }
+    .column-4-1 img {
+        width: 130px;
+        height: 95px;
+        margin-top: 0px;
+    }
+    
+    .column-4-2 img {
+        height: 95px;
+        margin-top: 50px;
+        width: 130px;
+    }
+
+    .reviews .reviews-container .section-title{
+        font-size: 25px;
+        margin-left: 165px;
+    }
+
+    .reviews .box .slideshow img{
+        width: 170px;
+        height: 258px;
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+
+    .foooter{
+        height: 40px;
+    }
+
+    .foooter .row{
+        margin-left: 60px;
+        padding: 0px 30px;
+    }
+
+    .foooter .name{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .foooter .logo img{
+        width: 40px;
+        height: 40px;
+        margin-top: 8px;
+    }
+
+   
+}
 @media screen and (max-width: 321px){
 
     body{
@@ -1024,13 +1212,26 @@
 
     .activities-overview-1 h3 ,.activities-overview-2 h3{
         font-size: 12px;
-        width: 70px;
+        width: 55px;
         margin-bottom: 5px;
+    }
+
+    .activities-overview-1 .landing-tour, .space-bar {
+        margin-left: 12px;
     }
 
     .activities-overview-1 p ,.activities-overview-2 p{
         font-size: 8px;
-        width: 65px;
+        width: 55px;
+    }
+
+    .activities-overview-2 .rover-expeditions {
+        padding-right: 5px;
+        margin-left: 10px;
+    }
+
+    .activities-overview-1 .galactic-arcades {
+        margin-left: 10px;
     }
 
     .btndiv{
@@ -1050,6 +1251,7 @@
     .gallery{
         height: 50vh;
     }
+
     .gallery .gallery-container .section-title{
         font-size: 25px;
         margin-left: 110px;
@@ -1061,7 +1263,8 @@
     }
 
     .column-2 img{
-        margin-top: 45px;
+        margin-top: 65px;
+        width: 140px;
     }
  
     .column-3 .column-3-2 img, .column-3-1 img{

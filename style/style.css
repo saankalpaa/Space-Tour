@@ -237,7 +237,8 @@ header .name a{
     cursor:pointer;
     overflow: hidden;
     outline:none;
-    color: #464f69;
+    color: #8E95B4;
+    /* color: #464f69; */
     margin-top: 80px;
     font-size: 30px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -247,13 +248,13 @@ header .name a{
 
 .exploreBtn img{
     border-radius: 50px;
-    border: 2px solid #282f42;
+    border: 2px solid #8E95B4;
 }
 
 .exploreBtn:hover {
     background: #ed1c24;
     color: #ffffff;
-    border: 2px solid #464f69;
+    border: 2px solid #8E95B4;
     ;
 }
 /* header section ends */

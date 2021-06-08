@@ -18,12 +18,12 @@ function delayFunction(){
        floatAnimation();
     }, theDelay*1000);
 }
+
 function showText(){
     document.getElementById("delayedText").style.visibility = "visible";
 }
 
 function destinationOfChoice(id){
-    console.log(id);
     if(id == 'moonOverview'){
         document.getElementById('moonOverview').style.visibility= 'visible';
         document.getElementById('marsOverview').style.visibility= 'hidden';
@@ -52,6 +52,32 @@ function destinationOfChoice(id){
     }
 }
 
+function changeActivity(){
+    
+    var destination = document.getElementById('activities-destination').innerHTML;
+    var x = window.matchMedia("(max-width: 768px)");
+    var y = window.matchMedia("(max-width: 425px)");
+    var z = window.matchMedia("(max-width: 375px)");
+    var w = window.matchMedia("(max-width: 325px)");
+    console.log(destination);
+
+    if (destination ==' MOON'){
+        document.getElementById('activities-destination').innerHTML= ' MARS';
+        document.getElementById('change-destination').innerHTML= 'Mars';
+    }
+
+    if (destination ==' MARS'){
+        document.getElementById('activities-destination').innerHTML= ' JUPITER';
+        document.getElementById('change-destination').innerHTML= 'Jupiter';
+
+    }
+
+    if (destination ==' JUPITER'){
+        document.getElementById('activities-destination').innerHTML= ' MOON';
+        document.getElementById('change-destination').innerHTML= 'Moon';
+    }
+}
+
 // slideshow script 
 
 var myIndex = 0;
@@ -76,4 +102,5 @@ const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
+  return false;
 })

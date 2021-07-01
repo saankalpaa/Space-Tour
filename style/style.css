@@ -298,7 +298,6 @@ figure button {
     width: 110%; 
     height: 100%;
 }
-/* style="border: none; width: 200px; height: 200px;" */
 
 .marsG,.moonG,.jupiterG{
     animation: rotation 10s infinite linear;
@@ -306,15 +305,6 @@ figure button {
     height: 140px;
     cursor: pointer;
 
-}
-  
-@keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
 }
 
 /*Moon Overview css starts*/

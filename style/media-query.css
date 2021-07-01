@@ -68,7 +68,11 @@
     }
 
     .image-container{
-        margin-left: 40px;
+        margin-left: 50px;
+    }
+
+    .image-container figure{
+        margin-left: 20px;
     }
 
     .marsG,.jupiterG, .moonG{
@@ -115,6 +119,9 @@
         width: 280px;
     }
 
+    .image-container{
+        margin-left: 30px;
+    }
     /* moon description ends */
 
     /* mars description starts */
@@ -533,8 +540,8 @@
         margin-left: 30px;
     }
 
-    .image-container{
-        margin-left: 20px;
+    .image-container {
+        margin-left: 14px;
     }
 
     .marsG,.jupiterG, .moonG{
@@ -543,7 +550,7 @@
     }
 
     .image-container figure{
-        margin-left: 5px;
+        margin-left: 15px;
     }
     
     figcaption{
@@ -960,6 +967,12 @@
         font-size: 25px;
         margin-left: 30px;
     }
+    
+
+    figure button {
+        width: 110%; 
+        height: 90%;
+    }
 
     .marsG,.jupiterG, .moonG{
         width: 50px;
@@ -967,7 +980,7 @@
     }
 
     .image-container figure{
-        margin-left: 5px;
+        margin-left: 15px;
     }
 
     figcaption{
@@ -1178,7 +1191,7 @@
     }
 
     .image-container figure{
-        margin-left: 5px;
+        margin-left: 15px;
     }
 
     figcaption{

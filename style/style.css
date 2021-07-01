@@ -233,6 +233,7 @@ header .name a{
     background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
+    border-radius: 20px;
     padding: 10px 10px;
     cursor:pointer;
     overflow: hidden;
@@ -251,9 +252,9 @@ header .name a{
 }
 
 .exploreBtn:hover {
-    background: #ed1c24;
+    background-color: #202133;
     color: #ffffff;
-    border: 2px solid #8E95B4;
+    border: 2px solid #ed1c24;
     ;
 }
 /* header section ends */

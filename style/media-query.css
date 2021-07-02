@@ -603,7 +603,7 @@
     /* mars description starts */
 
     .marsOverview{
-        margin-top: -190px;
+        margin-top: -220px;
         margin-left: 0px;
     }
 
@@ -988,11 +988,11 @@
     }
 
     .jupiterOverview{
-        margin-top: -240px;
+        margin-top: -253px;
     }
 
     .marsOverview{
-        margin-top: -200px;
+        margin-top: -230px;
     }
 
     .activity .section-title{
@@ -1204,10 +1204,11 @@
 
     .marsDescription .p1, .p2{
         width: 230px;
+        margin-top: -3px;
     }
 
     .marsOverview{
-        margin-top: -240px;
+        margin-top: -275px;
     }
 
     .jupiterDescription .p1, .p2{
@@ -1215,7 +1216,7 @@
     }
 
     .jupiterOverview{
-        margin-top: -260px;
+        margin-top: -300px;
     }
 
     .popup{
